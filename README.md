@@ -6,3 +6,7 @@ Test running node inside docker
 3. Run app with `sudo run -p 7000:3000 -d node-docker-app`
 4. Open browser to `localhost:7000`
 5. Vist `/` and `/secret`
+
+
+## Pulling image from DockerHub
+`sudo docker pull tboccinfuso/node-test:testing`
